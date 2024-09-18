@@ -11,7 +11,7 @@
     position: relative;
     display: flex;
 }
-.all{
+.all-up{
     background-color: rgb(211, 211, 211);
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-color: rgba(21, 21, 21, 0.881);
+    background-color: rgba(21, 21, 21, 0.815);
     height: 100vh;
     width: 100%;
 }
@@ -98,6 +98,7 @@
     padding: 20px;
     color: rgb(173, 216, 230);
     background-color: white;
+    cursor: pointer;
     transition: 400ms all ease-out;
 }
 .pop-up p{
